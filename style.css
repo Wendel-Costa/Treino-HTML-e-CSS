@@ -1,9 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: #f6f6f6;
     
 }
 
-strong{
+.azul{
     color: #22d4fd;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
 }
